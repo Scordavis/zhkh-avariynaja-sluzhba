@@ -1,1 +1,1 @@
-# zhkh-avariynaja-sluzhba
+# zkh-avariyno-dispetcherska-sluzhba
