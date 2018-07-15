@@ -161,6 +161,20 @@ button
 		input
 			border: none
 
+	&__form-list
+		position: absolute
+		top: 60px
+		width: 92%
+		height: auto
+		background-color: yellow
+		list-style-type: none
+		z-index: 2
+		& li
+			background-color: white
+			&:hover
+				background-color: darken(white, 8%)
+				cursor: pointer
+
 	&__form-btn
 		@include transition(.2s)
 		&--red

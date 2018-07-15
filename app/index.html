@@ -18,11 +18,11 @@
 </head>
 <body>
 
-	<a href="#modal-49" data-fancybox class="col-12 d-block text-center mt-5 apartment__modal-btn">Модальное окно</a>
+	<!-- <a href="#modal-49" data-fancybox class="col-12 d-block text-center mt-5 apartment__modal-btn">Модальное окно</a> -->
 
 
 	<!-- modal -->
-	<div class="container pt-0 emergency-service" id="modal-49" style="display: none;">
+	<div class="container pt-0 emergency-service" id="modal-49"> <!--  style="display: none;" -->
 		<!-- header -->
 		<header class="row pt-3 pb-4 align-items-center emergency-service__header">
 			<div class="col-lg-4 col-md-6 col-sm-8 col-12">
@@ -38,18 +38,19 @@
 		<!-- form -->
 		<form action="" class="row mb-4 py-4 emergency-service__form-wrapper">
 			<!-- street -->
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 emergency-service__form-input">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-3 emergency-service__form-input">
 				<div class="input-group">
-					<select class="p-3 custom-select" id="select-street">
-						<option selected>Оберіть вулицю</option>
-						<option value="1">вул. Гоголя</option>
-						<option value="2">вул. Миру</option>
-						<option value="3">вул. Т.Г.Шевченка</option>
-					</select>
+					<input type="text" class="p-3 w-100" id="streetInput" placeholder="Оберіть вулицю">
 				</div>
+				<ul class="pl-0 emergency-service__form-list" style="display: none;">
+					<li class="px-3 py-2">Каземирская</li>
+					<li class="px-3 py-2">Причальная</li>
+					<li class="px-3 py-2">Ростовская</li>
+					<li class="px-3 py-2">Алая</li>
+				</ul>
 			</div>
 			<!-- house -->
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 emergency-service__form-input">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-3 emergency-service__form-input">
 				<div class="input-group">
 					<select class="p-3 custom-select" id="select-street">
 						<option selected>Номер будинку</option>
@@ -63,7 +64,7 @@
 				</div>
 			</div>
 			<!-- apartment -->
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 emergency-service__form-input">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-3 emergency-service__form-input">
 				<div class="input-group">
 					<select class="p-3 custom-select" id="select-street">
 						<option selected>Номер квартири</option>
@@ -77,13 +78,13 @@
 				</div>
 			</div>
 			<!-- phone number -->
-			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-4 emergency-service__form-input">
+			<div class="col-lg-4 col-md-6 col-sm-6 col-12 mb-3 emergency-service__form-input">
 				<div class="input-group">
 					<input class="p-3 border-0 w-100" type="text" placeholder="Номер вашого телефону">
 				</div>
 			</div>
 			<!-- damage -->
-			<div class="col-lg-8 col-md-8 col-sm-7 col-12 mb-4 emergency-service__form-input">
+			<div class="col-lg-8 col-md-8 col-sm-7 col-12 mb-3 emergency-service__form-input">
 				<div class="input-group">
 					<select class="p-3 custom-select" id="select-street">
 						<option selected>Оберіть вид пошкодження</option>
