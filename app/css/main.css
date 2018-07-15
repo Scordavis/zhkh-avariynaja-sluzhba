@@ -4857,10 +4857,8 @@ button {
   .emergency-service__phone {
     position: relative;
     top: 4px;
-    font-size: 20px;
+    font-size: 30px;
     line-height: 2px; }
-  .emergency-service__header-icon {
-    margin-right: 10px; }
   .emergency-service__form-wrapper {
     background-color: #f0f0f0; }
     .emergency-service__form-wrapper select {
