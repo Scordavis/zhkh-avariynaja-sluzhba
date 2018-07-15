@@ -16,10 +16,40 @@
 
 // ≥768px
 +media-breakpoint-down(sm)
-
+	.emergency-service__table-header
+		display: none
+	.emergency-service tbody .emergency-service__table-data
+		display: block
+		&:first-child
+			background-color: darken(white, 47%)
+			color: white
+		&:before
+			content: attr(data-js-table)
+			font-weight: bold
+			display: block
+			text-align: center
+			width: 100%
 
 // ≥576px
 +media-breakpoint-down(xs)
+	.emergency-service__table-header
+		display: none
+	.emergency-service tbody .emergency-service__table-data
+		display: block
+		&:first-child
+			background-color: darken(white, 47%)
+			color: white
+		&:before
+			content: attr(data-js-table)
+			font-weight: bold
+			display: block
+			text-align: center
+			width: 100%
+
+
+
+
+
 
 
 
